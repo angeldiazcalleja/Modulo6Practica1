@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href=" site.css" />
+  </head>
+
+  <body>
+    <div class="Title">
+      <span> 🛒 🛠️ Cesta Productos 🛒 🛠️</span>
+    </div>
+    <div class="line">
+      <hr />
+    </div>
+    <main class="shopping-container" id="shopping-container">
+      <form class="shopping-list" id="product-list-container"></form>
+      <button class="calculate" type="button" id="calculate">Calculate</button>
+
+      <div class="ticket-list">
+        <div class="ticket-item">
+          <h4>Subtotal</h4>
+          <h4 class="ticket-quantity" id="subtotal-value">0.00 €</h4>
+        </div>
+        <div class="ticket-item">
+          <h4>IVA</h4>
+          <h4 class="ticket-quantity" id="iva-value">0.00 €</h4>
+        </div>
+        <div class="ticket-item">
+          <h4>TOTAL</h4>
+          <h4 class="ticket-quantity" id="total-value">0.00 €</h4>
+        </div>
+      </div>
+    </main>
+    <script src="app.JS"></script>
+  </body>
+</html>

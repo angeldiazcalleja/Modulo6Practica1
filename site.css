@@ -1,0 +1,72 @@
+body {
+    background-color: azure;
+  }
+  
+  .Title {
+    font-size: 25px;
+    color: rgb(60, 57, 215);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .calculate {
+    padding: 5px;
+    margin-top: 8px;
+    width: 10%;
+    text-align: center;
+    margin-left: 682px;
+    border-radius: 5px;
+    background-color: hsl(183, 96%, 26%);
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px 0px rgb(255, 144, 0, 0.6);
+  }
+  
+  .calculate:hover {
+    background-color: hsl(262, 83%, 41%);
+  }
+  .calculate:focus {
+    background-color: hsl(262, 83%, 41%);
+  }
+  .calculate:disabled {
+    background-color: rgba(117, 18, 18, 0.4);
+    cursor: auto;
+  }
+  
+  .line {
+    height: 10px;
+    background-color: rgb(23, 25, 118);
+  }
+  
+  .ticket-list {
+    text-align: center;
+  }
+  
+  .products {
+    text-align: center;
+    margin: 4rem;
+  }
+  
+  .Description {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .product-price {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .input-unit {
+    width: 150px;
+    margin-left: 678px;
+    border-color: rgb(31, 28, 199);
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset,
+      0 0 8px rgba(255, 144, 0, 0.6);
+    outline: 0 none;
+    border-radius: 4px;
+  }
+  
